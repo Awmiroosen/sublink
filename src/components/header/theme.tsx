@@ -8,7 +8,7 @@ const Theme = () => {
   return (
     <button
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-      className="bg-indigo-300 hover:bg-indigo-400 dark:bg-indigo-600 dark:hover:bg-indigo-800 transition-colors duration-200 cursor-pointer p-2 rounded-full"
+      className="bg-indigo-300 hover:bg-indigo-400 dark:bg-indigo-600 dark:hover:bg-indigo-800 border-2 transition-colors duration-200 cursor-pointer p-2"
     >
       <LuSunMoon size={30} />
     </button>
