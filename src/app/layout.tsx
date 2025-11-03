@@ -1,5 +1,6 @@
 import AppProviders from "@/utils/context/AppProviders";
 import type { Metadata } from "next";
+
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className="font-mono bg-zinc-50 dark:bg-zinc-950">
         <AppProviders>{children}</AppProviders>
       </body>
     </html>

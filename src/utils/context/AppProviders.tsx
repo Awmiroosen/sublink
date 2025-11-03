@@ -9,7 +9,7 @@ type PropsType = {
 const AppProviders = ({ children }: PropsType) => {
   return (
     <>
-      <ThemeProvider attribute={"class"} enableSystem>
+      <ThemeProvider attribute={"class"} enableSystem disableTransitionOnChange>
         {children}
       </ThemeProvider>
     </>
